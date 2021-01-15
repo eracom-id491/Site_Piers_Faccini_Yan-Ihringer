@@ -1,0 +1,84 @@
+body {
+  background-color:#2d426b;
+  color:#699bff;
+  width:65%;
+  margin:auto;
+
+	
+  padding:1.5%;
+  font-family: 'avenir', bold;
+}
+li, a {font-family: 'avenir', black;
+list-style-type: none;
+font-size: 12px;}
+
+img {max-width: 100%;
+max-height: 17em}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+li, a {font-family: 'Satisfy', cursive;}
+
+a {
+  color:#aeb6e3;
+  text-decoration:none;
+}
+
+a:hover {
+  color:red;
+  text-decoration:overline underline;
+}
+
+.specifique {
+  width:50%;
+  margin:auto;
+  border:2px solid yellow;
+  font-family: 'Autour One', cursive;
+  color:#009;
+  padding:2%;
+}
+
+ul, ol{
+	list-style-type: none;
+
+}
+
+.droite {
+  text-align:right;
+  font-size:80%;
+}
+
+footer{
+	background-image: url(../img/bg1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+header {
+	height:100px;
+	text-align: center;
+	background-image: url(/img/Leave no trace.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+article, aside{
+	margin: 1%;
+	padding: 2%;
+
+}
+
+main {
+	display:grid;
+	grid-template-columns: 2fr 1fr;
+}
